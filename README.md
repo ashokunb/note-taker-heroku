@@ -1,11 +1,10 @@
-
-
 # Note Taker Application
 
 There is no licence
 ## Description:
 <blockquote>
 <p>A simple application deployed by heroku that can be used to wrie and save notes.</p>
+
 </blockquote>
 
 ## Table of Contents
@@ -20,6 +19,9 @@ There is no licence
 
 You can run this application by going to through this link : https://note-taker-heroku-1.herokuapp.com/
 
+-Type your intended notes into the application 
+-A save button will appear in the top right hand corner upon finishing entry. 
+-Click the save button to save your file to the applciation.
 
 ## Contributors:
 
