@@ -2,14 +2,14 @@ const express = require("express");
 const path = require("path");
 const fs = require("fs");
 
-const notes = JSON.parse(fs.readFileSync("./db/db.json"));
+const { notes } = require("./db/db.json");
+//const notes = JSON.parse(fs.readFileSync("./db/db.json"));
 console.log(notes);
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 5000;
 
 const app = express();
 
 // middleware
-
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 app.use(express.static("./public"));
@@ -19,11 +19,9 @@ function createNote(body, notesArray) {
     notesArray.push(newNote);
     fs.writeFileSync(
         path.join(__dirname, "./db/db.json"),
-        JSON.stringify({ notes: notesArray}, null, 2),
+        JSON.stringify({ notes: notesArray }, null, 2)
     );
-    console.log(body);
     return newNote;
-    
 }
 
 app.get("/api/notes/:id", (req, res) => {
