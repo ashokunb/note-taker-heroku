@@ -1,0 +1,24 @@
+{
+  "name": "note-taker-heroku",
+  "version": "1.0.0",
+  "description": "There is no licence ## Description: <blockquote> <p>A simple application deployed by heroku that can be used to wrie and save notes.</p> </blockquote>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashokunb/note-taker-heroku.git"
+  },
+  "author": "Ambrose Shokunbi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashokunb/note-taker-heroku/issues"
+  },
+  "homepage": "https://github.com/ashokunb/note-taker-heroku#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "path": "^0.12.7"
+  }
+}
