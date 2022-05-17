@@ -3,15 +3,17 @@
 There is no licence
 ## Description:
 <blockquote>
-<p>A simple application deployed by heroku that can be used to wrie and save notes.</p>
+<p>A simple application deployed by heroku that can be used to writeand save notes.</p>
 
 </blockquote>
+
 
 ## Table of Contents
 - [Description](#description)
 - [Instructions](#instructions)
 - [Contributions](#contributors)
 - [Test Instructions](#testing)
+- [Images](#images)
 - [Contact](#questions)
 - [license](#license)
 
@@ -33,6 +35,18 @@ Ambrose Shokunbi
 N/A
 
 
+## Images
+<img src="./images/Screenshot_1.jpg" width="600" >
+
+<img src="./images/Screenshot_2.jpg" width="600" >
+
+<img src="./images/Screenshot_3.jpg" width="600" >
+
+<img src="./images/Screenshot_4.jpg" width="600" >
+
+<img src="./images/Screenshot_5.jpg" width="600" >
+
+
 ## Questions:
 [Github](https://github.com/ashokunb)
 <br>
@@ -41,5 +55,5 @@ Email: shokunbitobi@gmail.com
 
 ## License:
 
-  This application is covered under the  license
+  This application is covered under no license
 <br>
